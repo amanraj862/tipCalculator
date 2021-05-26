@@ -5,5 +5,6 @@ import 'ui/home.dart';
 void main() {
   runApp(new MaterialApp(
     home: BillSplit(),
+    debugShowCheckedModeBanner: false,
   ));
 }
